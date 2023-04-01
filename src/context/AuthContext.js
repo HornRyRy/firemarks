@@ -18,6 +18,10 @@ export const AuthContextProvider = ({ children }) => {
 
     }
 
+    const login = (email, password) =>{
+      return signInWithEmailAndPassword(auth, email, password)
+    }
+    
     useEffect(() =>{
       const unsubscribe = onAuthStateChanged(auth, (currentUser) =>{
         console.log(currentUser)
@@ -27,10 +31,8 @@ export const AuthContextProvider = ({ children }) => {
         unsubscribe()
       }
     }, [])
+    
 
-    const login = () =>{
-
-    }
 
     const logout = () =>{
       return signOut(auth)
