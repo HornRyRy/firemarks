@@ -32,6 +32,11 @@ const Signup = () => {
             name="nickname"
             value={""} />
         </div>
+        <div>
+            <input
+            type="submit"
+            value="Sign Up" />
+        </div>
       </form>
     </div>
   );
