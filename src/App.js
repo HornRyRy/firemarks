@@ -8,7 +8,7 @@ import Account from "./components/Account";
 function App() {
   return (
     <div>
-      <h1>Initial Auth</h1>
+      <h1>Auth with Firebase</h1>
       <Routes>
         <Route path='/' element={<Login />} />
         <Route path='/signup' element={<Signup />} />
