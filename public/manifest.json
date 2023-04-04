@@ -3,6 +3,12 @@
   "name": "Firemarks Extensions",
   "description": "Firemarks Extension prototype",
   "version": "1.0",
+  "icons":{
+    "16": "./images/fm-logo-16.png",
+    "32": "./images/fm-logo-32.png",
+    "48": "./images/fm-logo-48.png",
+    "128": "./images/fm-logo-128.png"
+  },
   "action": {
     "default_popup": "index.html",
     
