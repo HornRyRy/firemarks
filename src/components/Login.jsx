@@ -25,10 +25,13 @@ const Login = () => {
     }
   }
 
+
+
   return (
     <div>
     <h1>Login Page</h1>
     <p>Don't have an account? <Link to='/signup'>Sign up</Link></p>
+    <p>Go to your history now! <Link to='/history'>History</Link> </p>
     <form onSubmit={handleSubmit}>
       <h2>Log in Here!</h2>
       <div>
@@ -56,6 +59,7 @@ const Login = () => {
           value="Log In" />
       </div>
     </form>
+
   </div>
   )
 }

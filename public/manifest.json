@@ -11,14 +11,14 @@
   },
   "action": {
     "default_popup": "index.html",
-    
+    "default_title": "Firemarks",    
     "default_icon": "firemarks-logo.png"
   },
   "host_permissions":[
     "https://developer.chrome.com/*"
   ],
   "permissions":[
-    "activeTab", "tabs", "tabGroups"
+    "activeTab", "tabs", "tabGroups", "history"
   ]
 }
 
