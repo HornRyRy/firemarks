@@ -12,6 +12,7 @@ import { Link, useNavigate } from "react-router-dom";
 
 const HistoryItemList = () => {
   const [url, setUrl] = useState("");
+  
 
   const dummyHistory = [
     "imgur.com",
@@ -24,6 +25,7 @@ const HistoryItemList = () => {
 useEffect(() =>{
     chrome.history.search({ text: "", maxResults: 10 }, (data =>{
         console.log(data)
+        
         
     }))
 },[])
