@@ -21,12 +21,12 @@ const HistoryItemList = () => {
     "developer.chrome.com",
 ];
 
-useEffect(() =>{
-    chrome.history.search({ text: "", maxResults: 10 }, (data =>{
-        console.log(data)
+// useEffect(() =>{
+//     chrome.history.search({ text: "", maxResults: 10 }, (data =>{
+//         console.log(data)
         
-    }))
-},[])
+//     }))
+// },[])
 
 
 
